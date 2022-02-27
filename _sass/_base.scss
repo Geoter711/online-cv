@@ -36,6 +36,7 @@ p {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
+  border-bottom-right-radius: 25px;
   background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
@@ -44,8 +45,8 @@ p {
 }
 
 .sidebar-wrapper {
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
   grid-column: span 3;
   order: 2;
   background: $theme-color;
@@ -58,7 +59,7 @@ p {
     border-top-left-radius: 25px;
     padding: 30px;
     //background: darken($theme-color, 10%);
-    background: $theme-color-secondary;
+    background: darken($theme-color-secondary,10%);
     text-align: center;
     color: #fff;
   }
