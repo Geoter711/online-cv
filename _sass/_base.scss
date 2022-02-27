@@ -44,7 +44,8 @@ p {
 }
 
 .sidebar-wrapper {
-  border-bottom-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   grid-column: span 3;
   order: 2;
   background: $theme-color;
@@ -53,7 +54,8 @@ p {
     color: #fff;
   }
   .profile-container {
-    border-top-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     padding: 30px;
     //background: darken($theme-color, 10%);
     background: $theme-color-secondary;
