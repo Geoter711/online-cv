@@ -15,7 +15,7 @@ sidebar:
     email: geopap910@gmail.com
     phone:
     citizenship: Greek
-    website: https://geoter711.github.io/online-cv/ #do not add http://
+    website: geoter711.github.io/online-cv/ #do not add http://
     linkedin: 
     xing: 
     github: Geoter711
@@ -26,7 +26,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+    pdf: https://github.com/Geoter711/cv-boilerplate/blob/3ac9f134e65ff695be291a759937e3d211ac88a7/output.pdf
 
     languages:
       - idiom: Greek
